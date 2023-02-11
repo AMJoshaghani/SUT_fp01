@@ -1,0 +1,29 @@
+{
+  "I01": "Please enter incidence matrix row and column count (ex: 2 2):\t",
+  "I02": "Now, enter the matrix itself row by row:",
+  "I03": "Enter your desired command to do with matrix ('help <command>' for commands and help):\t",
+  "I04": ":> ",
+  "I05": "█",
+  "I99": "Program ended.",
+  "E01": "Expected 2 numbers but %s was given.",
+  "E02": "Expected %s numbers but %s was given.",
+  "E03": "Error while plotting the graph: %s",
+  "E04": "Node not found: %s",
+  "E99": "Unhandled error happened. details: %s",
+  "W01":  "Command not found.",
+  "W02": "Using the same final node as the initial one.",
+  "W03": "No way was found.",
+  "V": {
+    "exit": ["exits from program.", ""],
+    "dictized": ["converts given matrix into Vertex: [*Edges] dict.", ""],
+    "help": ["shows program manuals.", ""],
+    "adjy": ["returns adjacency matrix of given incidence matrix.", ""],
+    "deg": ["returns degree of all vertices.", ""],
+    "rev_edg": ["removes an edge.", "edge_number"],
+    "add_edg": ["adds an edge between vertices X and Y.", "initial_vertex_name final_vertex_name"],
+    "rev_node": ["removes a vertex.", "vertex_name"],
+    "add_node": ["adds a vertex.", "vertex_name"],
+    "plot": ["plots resultant graph.", ""],
+    "shortest": ["finds the shortest way between A and B", "initial_vertex_name final_vertex_name"]
+  }
+}
